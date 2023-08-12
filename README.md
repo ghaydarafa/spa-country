@@ -16,19 +16,27 @@ Before you begin, make sure you have [Node.js](https://nodejs.org/) and [npm](ht
 
 1. Clone the repository to your local machine:
 
-   ```git clone https://github.com/ghaydarafa/spa-country.git```
+   ```
+   git clone https://github.com/ghaydarafa/spa-country.git
+   ```
 
 2. Navigate to the project directory:
 
-   ```cd countrypedia```
+   ```
+   cd countrypedia
+   ```
 
 3. Install the dependencies:
 
-   ```npm install```
+   ```
+   npm install
+   ```
 
 4. Start the development server:
 
-   ```npm start```
+   ```
+   npm start
+   ```
 
 5. Open your web browser and go to http://localhost:3000 to access the application.
 
