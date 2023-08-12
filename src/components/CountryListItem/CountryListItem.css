@@ -1,0 +1,12 @@
+.country-card {
+  transition: transform 250ms;
+}
+
+.country-card:hover,
+.country-card:focus {
+  transform: translateY(-5px);
+}
+
+.language-list {
+  margin-top: 1px;
+}
