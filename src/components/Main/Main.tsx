@@ -15,8 +15,10 @@ const ALL_COUNTRIES = gql`
       code
       emoji
       emojiU
+      native
       capital
       currency
+      phone
       continent {
         code
         name

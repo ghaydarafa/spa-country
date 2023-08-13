@@ -22,7 +22,6 @@ const CountryDetailsModal: React.FC<CountryDetailsModalProps> = ({
   onClose,
   country,
 }) => {
-
   // Determine modal dimensions based on media query size
   const mediaQuerySize = GetMediaQuerySize();
   let modalHeight;
@@ -76,10 +75,8 @@ const CountryDetailsModal: React.FC<CountryDetailsModalProps> = ({
             {country.name} {country.emoji}
           </Typography>
           <Typography style={{ textAlign: "left" }} variant="body1">
-            Capital: {country.capital}
-            <br />
-            Currency: {country.currency}
-            <br />
+            Native:{country.native} <br /> Capital: {country.capital} <br />{" "}
+            Currency: {country.currency} <br /> Phone: {country.phone} <br />
             Continent: {country.continent.name}
             <br />
             Languages: <ul className="language-list">{languageList}</ul>
