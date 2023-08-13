@@ -23,7 +23,7 @@ Before you begin, make sure you have [Node.js](https://nodejs.org/) and [npm](ht
 2. Navigate to the project directory:
 
    ```
-   cd countrypedia
+   cd spa-country
    ```
 
 3. Install the dependencies:
